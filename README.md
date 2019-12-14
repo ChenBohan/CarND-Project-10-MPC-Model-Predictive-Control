@@ -22,7 +22,7 @@ for (int i = 0; i < ptsx.size(); i++) {
   double y = ptsy[i] - py;
   ptsx_car[i] = x * cos(-psi) - y * sin(-psi);
   ptsy_car[i] = x * sin(-psi) + y * cos(-psi);
-          }
+}
 ```
 
 ### Fits a 3rd-order polynomial to the vehicle's x and y coordinates
@@ -86,6 +86,7 @@ Multiplying by Lf takes into account vehicle's turning ability
 double steer_value = vars[0] / (deg2rad(25) * Lf);
 double throttle_value = vars[1];
 ```
+
 
 ## mpc.cpp
 
