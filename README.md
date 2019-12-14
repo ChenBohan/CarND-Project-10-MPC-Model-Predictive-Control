@@ -1,6 +1,14 @@
 # CarND-Project-10-MPC-Model-Predictive-Control
 Udacity Self-Driving Car Engineer Nanodegree: Project 10 - Model Predictive Control
 
+## Reference
+
+[udacity/CarND-MPC-Project](https://github.com/udacity/CarND-MPC-Project)
+
+## Sim
+
+<img src="https://github.com/ChenBohan/CarND-Project-10-MPC-Model-Predictive-Control/blob/master/readme_img/sim_car.gif" width = "100%" height = "100%" div align=center />
+
 ## main.cpp
 
 ### Input
