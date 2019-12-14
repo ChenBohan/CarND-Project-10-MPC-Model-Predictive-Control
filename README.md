@@ -24,6 +24,8 @@ double a = j[1]["throttle"];
 
 ### Transform the points to the vehicle's orientation
 
+<img src="https://github.com/ChenBohan/CarND-Project-10-MPC-Model-Predictive-Control/blob/master/readme_img/coordinate_transform.png" width = "100%" height = "100%" div align=center />
+
 ```cpp
 for (int i = 0; i < ptsx.size(); i++) {
   double x = ptsx[i] - px;
